@@ -1,0 +1,78 @@
+.bg-container {
+    background-image: url("https://res.cloudinary.com/drj998bjm/image/upload/v1689593607/heat-wave-sun-high-temerature-climate-change-weather-shut_o8fvkx.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS";
+    font-weight: 800;
+}
+
+.card-container {
+    background-color: transparent;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.card-container:hover {
+    background-color: transparent;
+    box-shadow: 10px 10px 5px 12px orange;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.heading {
+    text-align: center;
+    color: #e97b00;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.degrees-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.input-box {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: orange;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.degrees-text {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.convert-button {
+    background: transparent;
+    border-width: 0px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.convert-button:hover {
+    background: orange;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: transparent;
+}
